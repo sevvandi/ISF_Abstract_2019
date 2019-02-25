@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+
+\begin{document}
+\title{Early event classification in spatio-temporal data streams }
+\author{Sevvandi Kandanaarachchi \thanks{Faculty of Business and Economics, Monash University, Clayton VIC 3800, Australia. \email{sevvandi.kandanaarachchi@monash.edu}}, Rob Hyndman \thanks{Faculty of Business and Economics, Monash University, Clayton VIC 3800, Australia. \email{rob.hyndman@monash.edu}}, Kate Smith-Miles \thanks{School of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, \email{smith-miles@unimelb.edu.au}} }
+\date{February 2019}
+\maketitle
+\begin{centering}
+\section*{Abstract}
+\end{centering}
+
+
+From the Internet of Things  to social media,  data streams are omnipresent in today's world. Typically, it is not the whole data stream that is of interest, but certain events that occur within the stream. For example traffic congestion resulting from road accidents or a network intrusion in a  high performance computing facility are events of interest.  
+
+We are interested in events that start, develop for some time, and stop at a certain time. Such events can be characterised by measurable properties or features and a class label in most scenarios. It is a challenge to predict the class of these events while they are still developing because only partial information is available at this stage. For example, it is easier to differentiate a daffodil from a tulip when both are in full bloom, but more difficult to differentiate a daffodil bud from a tulip bud without resorting to other information such as characteristics of leaves. 
+
+Our focus is on early event prediction in spatio-temporal data streams. Our framework encompasses an event extraction algorithm as well as two early event prediction algorithms called SAVEC and DAVEC, which predict the class of events that are still developing, using partial information. SAVEC is a static classifier and is suitable for stable environments while DAVEC is a dynamic classifier and is suited for changing environments. We test our framework on synthetic and real data and achieve better results compared to logistic regression.
+ 
+
+\end{document}
